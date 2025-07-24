@@ -90,7 +90,7 @@ def get_dog_images(breed, sub_breed=None):
         return []
 
 def main():
-    print(f"Используемый токен: {YANDEX_TOKEN[:2]}...")
+    print(f"Используемый токен: Ваш токен для яндекс диска")
 
     yandex = YandexDiskUploader(YANDEX_TOKEN)
 
